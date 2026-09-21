@@ -1,0 +1,101 @@
+@define-color window_bg_color #011627;
+@define-color window_fg_color #d6deeb;
+
+@define-color view_bg_color #011627;
+@define-color view_fg_color #d6deeb;
+
+@define-color headerbar_bg_color #0b2942;
+@define-color headerbar_fg_color #d6deeb;
+
+@define-color sidebar_bg_color #021320;
+@define-color sidebar_fg_color #89a4bb;
+
+@define-color accent_bg_color #7e57c2;
+@define-color accent_fg_color #ffffff;
+
+window,
+.background {
+    background-color: #011627;
+    color: #d6deeb;
+}
+
+headerbar {
+    background-color: #0b2942;
+    color: #d6deeb;
+    border-bottom: 1px solid #2e3250;
+}
+
+notebook > header {
+    background-color: #021320;
+}
+
+notebook > header > tabs > tab {
+    color: #89a4bb;
+    padding: 8px 14px;
+}
+
+notebook > header > tabs > tab:checked {
+    background-color: #2e3250;
+    color: #ffffff;
+    border-bottom: 2px solid #7e57c2;
+}
+
+button {
+    background: #2e3250;
+    color: #d6deeb;
+    border: 1px solid #122d42;
+    border-radius: 7px;
+}
+
+button:hover {
+    background: #7e57c2;
+    color: #ffffff;
+}
+
+scale trough {
+    background: #021320;
+    min-height: 6px;
+    border-radius: 6px;
+}
+
+scale highlight {
+    background: #7e57c2;
+    border-radius: 6px;
+}
+
+scale slider {
+    background: #c792ea;
+    min-width: 15px;
+    min-height: 15px;
+    border-radius: 50%;
+}
+
+dropdown,
+entry {
+    background: #0b253a;
+    color: #d6deeb;
+    border: 1px solid #5f7e97;
+    border-radius: 6px;
+}
+
+popover,
+popover contents {
+    background: #0b2942;
+    color: #d6deeb;
+}
+
+/* Main application/content background */
+window,
+window.background,
+notebook,
+notebook > stack,
+scrolledwindow,
+#scrolledwindow > viewport,
+.view,
+listview,
+list {
+    background-color: #011627;
+    color: #d6deeb;
+    opacity: 0.95;
+
+}

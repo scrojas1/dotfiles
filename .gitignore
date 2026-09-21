@@ -1,0 +1,20 @@
+# VS Code: ignore everything except actual user config
+/code/.config/Code/*
+!/code/.config/Code/User/
+/code/.config/Code/User/*
+!/code/.config/Code/User/settings.json
+!/code/.config/Code/User/keybindings.json
+!/code/.config/Code/User/snippets/
+!/code/.config/Code/User/tasks.json
+
+# GTK machine/user-specific bookmarks
+/gtk/.config/gtk-3.0/bookmarks
+
+# Spicetify downloaded/generated Marketplace files
+/spicetify/.config/spicetify/CustomApps/
+/spicetify/.config/spicetify/Themes/marketplace/
+/spicetify/.config/spicetify/*-dist.zip
+
+# General junk
+*.log
+.DS_Store
