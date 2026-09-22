@@ -366,7 +366,7 @@ for_window [app_id="zed"] opacity 0.85
 for_window [app_id="code"] opacity 0.85
 for_window [app_id="org.gnome.Nautilus"] opacity 1
 for_window [app_id="spotify"] opacity 0.9
-for_window [class="org.mozilla.firefox"] opacity 0.99
+for_window [class="org.mozilla.firefox"] opacity 1 #0.99
 for_window [app_id="org.gnome.Settings"] opacity 1
 
 # Status Bar:

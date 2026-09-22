@@ -4,4 +4,7 @@ font-size = 13
 window-width = 120
 window-height = 36
 
+working-directory = home
+window-inherit-working-directory = false
+
 theme = Night Owl

@@ -1,0 +1,46 @@
+/* Make Firefox's actual top-level background transparent */
+body,
+#main-window {
+    background: transparent !important;
+}
+
+/* Night Owl-ish translucent browser chrome */
+#navigator-toolbox,
+#titlebar,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar {
+    background: rgba(1, 22, 39, 0.80) !important;
+    background-image: none !important;
+}
+#sidebar-box,
+#sidebar-main,
+#sidebar,
+#sidebar-header {
+    background: rgba(1, 22, 39, 0.80) !important;
+    background-color: rgba(1, 22, 39, 0.80) !important;
+}
+
+/* Transparent browser/content backing layer */
+:root {
+    --tabpanel-background-color: rgba(1, 22, 39, 0.80) !important;
+}
+
+/* Browser backing layer */
+#browser,
+#appcontent,
+#tabbrowser-tabbox,
+#tabbrowser-tabpanels,
+.browserContainer {
+    background: rgba(1, 22, 39, 0.80) !important;
+}
+
+/* Left sidebar */
+#sidebar-main,
+sidebar-main,
+#sidebar-box,
+#sidebar,
+#sidebar-header {
+    background: rgba(1, 22, 39, 0.80) !important;
+    background-color: rgba(1, 22, 39, 0.80) !important;
+}
