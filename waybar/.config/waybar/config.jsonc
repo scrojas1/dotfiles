@@ -130,7 +130,7 @@
 
     "menu-actions": {
         "lock": "hyprlock",
-        "suspend": "systemctl suspend",
+        "suspend": "hyprlock & systemctl suspend",
         "logout": "swaymsg exit",
         "reboot": "systemctl reboot",
         "shutdown": "systemctl poweroff"
